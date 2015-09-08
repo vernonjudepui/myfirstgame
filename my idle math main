@@ -1,0 +1,19 @@
+
+   public static void main(String args[]) {
+      Scanner myScanner = new Scanner(System.in);
+      int amount;
+
+      System.out.print(" What is 7 + 8? ");
+      int ans;
+      amount = 7 + 8;
+      ans = myScanner.nextInt();
+
+      if(ans == amount){
+      System.out.print("You are correct!:)");
+      }
+      if(ans != amount)
+      {
+          System.out.print("You are wrong :(");
+          }
+      
+   }
